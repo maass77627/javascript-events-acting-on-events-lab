@@ -1,4 +1,4 @@
-const dodger = document.querySelector("#dodger");
+// const dodger = document.querySelector("#dodger");
 
 
 
@@ -24,10 +24,18 @@ function moveDodgerRight() {
 
 
 
-document.addEventListener("keydown", function (e) {
-  if (e.key === "ArrowLeft") {
-    moveDodgerLeft();
-  } else if (e.key === "ArrowRight") {
-    moveDodgerRight();
-  }
-});
+// document.addEventListener("keydown", function (e) {
+//   if (e.key === "ArrowLeft") {
+//     moveDodgerLeft();
+//   } else if (e.key === "ArrowRight") {
+//     moveDodgerRight();
+//   }
+// });
+const dodger = document.querySelector("#dodger");
+dodger.style.backgroundColor = "#FF69B4";
+dodger.style.bottom = "100px"
+dodger.style.left = "0px"
+
+// document.addEventListener("keydown", function(event) {
+//   console.log(event);
+// });
